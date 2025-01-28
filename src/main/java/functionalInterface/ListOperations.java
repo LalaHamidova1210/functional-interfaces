@@ -17,7 +17,7 @@ public class ListOperations {
     public static Predicate<Integer> isEven = number -> number % 2 == 0;
     private static Integer threshold;
 
-    public static Predicate<Integer> isGreaterThanThreshold(int Threshold) {
+    public static Predicate<Integer> isGreaterThanThreshold(int threshold) {
 
         return number -> number > threshold;
     }
